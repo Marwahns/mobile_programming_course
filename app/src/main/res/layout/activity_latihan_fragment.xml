@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".pertemuan6.LatihanActivityFragment">
+
+<!--    // Statis-->
+<!--    <fragment-->
+<!--        android:id="@+id/fragmentOne"-->
+<!--        class="com.example.pertemuan3.fragment.FragmentOne"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/fragmentTwo"-->
+<!--        class="com.example.pertemuan3.fragment.FragmentTwo"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1" />-->
+
+<!--    // Dinamis-->
+    <FrameLayout
+        android:id="@+id/containerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

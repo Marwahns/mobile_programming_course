@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".pertemuan8.TambahDataActivity">
+
+    <TextView
+        android:id="@+id/lblUpdateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Update data"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginVertical="20dp"/>
+
+    <TextView
+        android:id="@+id/lblNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Nama"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginLeft="15dp" />
+
+    <EditText
+        android:id="@+id/edtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukkan Nama"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_border_edit_text"/>
+
+    <TextView
+        android:id="@+id/lblTlp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Telepon"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtNoTlp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukkan Telepon"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_border_edit_text" />
+
+    <TextView
+        android:id="@+id/lblPekerjaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Pekerjaan"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtPekerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukkan pekerjaan dan dimana bekerja?"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_border_edit_text" />
+
+    <TextView
+        android:id="@+id/lblJurusan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Jurusan"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtJurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukkan Jurusan"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_border_edit_text" />
+
+    <TextView
+        android:id="@+id/lblTahun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Tahun"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtTahun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukkan Tahun Lulus"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_border_edit_text" />
+
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Save"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginLeft="27dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

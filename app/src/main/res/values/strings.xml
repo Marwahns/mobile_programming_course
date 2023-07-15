@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pertemuan 3</string>
+
+    <string name="string_welcome">Welcome to Lafyuu 3</string>
+    <string name="string_login">Sign In</string>
+    <string name="string_your_email">Your Email</string>
+    <string name="string_password">Password</string>
+    <string name="string_or">Or</string>
+    <string name="string_login_with_google">Login with Google</string>
+    <string name="string_login_with_facebook">Login with Facebook</string>
+    <string name="string_forgot_password">Forgot Password</string>
+    <string name="string_dont_have_account">Dont have a account? Register</string>
+    <string name="string_create_account">Create a new account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_otodidak_location">OtodidakLocationActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+</resources>
